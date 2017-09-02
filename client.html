@@ -1,0 +1,24 @@
+<html>
+    <head>
+        
+        <title>Esercitazione 2 Heroku</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+        <script src="script.js"></script> 
+    
+    </head>
+    <body>
+        
+        <p>Esercitazione 2 con Heroku</p>
+        <button type="button" id="btn">Mostra Form</button>
+        
+        <br><br>
+        
+        <div class="formHeroku">
+            <form action="http://127.0.0.1:5000/init" method="post">
+                <input type="text" name="name" value="name"><br>
+                <input type="text" name="lastname" value="lastname"><br>
+                <button type="button" onclick="submit()">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
