@@ -2,7 +2,7 @@
   "name": "esercitazione_heroku_2",
   "version": "1.0.0",
   "description": "Esercitazione 2 con Heroku",
-  "main": "index.js",
+  "main": "client.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
